@@ -2,7 +2,7 @@ name: Hprofile Actions
 on: workflow_dispatch
 jobs:
    testing:
-      run-on: ubuntu-latest
+      runs-on: ubuntu-latest
       steps:
          - name: testing workflow
            run: echo "Hellow world!"
