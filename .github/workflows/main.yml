@@ -1,0 +1,8 @@
+name: Hprofile Actions
+on: workflow_dispatch
+job:
+   testing:
+      run-on: ubuntu-latest
+      steps:
+         - name: testing workflow
+           run: echo "Hellow world!"
