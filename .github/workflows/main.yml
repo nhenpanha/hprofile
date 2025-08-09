@@ -15,7 +15,7 @@ jobs:
            
         #setup java 11
          - name: Setup Java 11
-           uses: action/setup-java@v3
+           uses: Actions/setup-java@v3
            with:
               distribution: temurin
               java-version: '11'
