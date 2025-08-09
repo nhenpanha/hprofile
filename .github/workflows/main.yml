@@ -13,7 +13,7 @@ jobs:
          - name: Checkstyle
            run: mvn checkstyle:checkstyle
            
-        #setup java 11
+        #setup java 11 OK
          - name: Setup Java 11
            uses: Actions/setup-java@v3
            with:
